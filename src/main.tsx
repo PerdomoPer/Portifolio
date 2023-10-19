@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import "./main.css"
 import Header from './componentes/header/Header'
 import Main from './componentes/main/Main'
+import Footer from './componentes/footer/Footer'
 
 import {
   createBrowserRouter,
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     element:<>
               <Header/>
               <Main/>
+              <Footer/>
             </>,
   },
   {

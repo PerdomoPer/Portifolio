@@ -1,5 +1,5 @@
 import './Header.css'
-import Link from './../link/Link'
+import Link from '../linknav/LinkNav'
 import imagem from ".././../assets/pp.png"
 
 export function Header(){
