@@ -1,30 +1,22 @@
-import { useState } from 'react'
 import './Contato.css'
 
 export function Contato(){
-    const [texto,setTexto]=useState("")
-    function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
-        setTexto(e.target.value)}
-
+    
   return(
-    <>
-            <div className="formulario">
-                <h1 className="titulo">Contato</h1>
-                <div className='pes'>
-            <input className='pesquisa' 
-            type="text" 
-            placeholder='O que você está procurando?'
-            onChange={TrataTexto} />
-            {texto && <p className='pesquisa1'>Resultados Para: {texto} </p>}
-                
-        </div>
-            <input className="email" type="text" placeholder="Email:"/>
-            <input className="telefone" type="text" placeholder="Telefone:" />
-            <input className="mensagem" type="text" placeholder="Mensagem:"/>
-            <button className="enviar">Enviar</button>
-            </div>
-            </>
-  )
+    
+             <div className="formulario">
+                <h1 className="titulo">Contate-me</h1> 
+                <label htmlFor="text">Nome:</label>
+                <input className="box" type="text" placeholder="Digite seu Nome:"/>
+                <label htmlFor="text">Email:</label>
+                <input className="box" type="text" placeholder="Digite um endereço de email valido:"/>
+                <  label htmlFor="text">Telefone:</label>
+                <input className="box" type="text" placeholder="Digite seu numero de telefone no formato (xx) xxxxx-xxxx:" />
+                <label htmlFor="text">Mensagem:</label>
+                <input className="box-msg" type="text" placeholder="Escreve sua mensagem:"/>
+                <button className="enviar">Enviar</button>
+          </div>
+ )
 }
 
 export default Contato
