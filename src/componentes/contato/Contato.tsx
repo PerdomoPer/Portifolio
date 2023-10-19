@@ -1,26 +1,17 @@
 import './Contato.css'
-import LinkNav from './../linknav/LinkNav'
 
 export function Contato(){
   return(
-    <>
-    <nav>
-        <ul>
-          <li>
-            <LinkNav url="/" texto='Home'/>
-          </li>
-          <li>
-            <LinkNav url="/noticias" texto='Noticias'/>
-          </li>
-          <li>
-            <LinkNav url="/sobre" texto='Sobre'/>
-          </li>
-          <li className='ultimo'>
-            <LinkNav url="/contato" texto='Contato'/>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <div className="Adess">
+            <div className="Adess2">
+                <h1 className="titulo">ESCREVA SUA MENSAGEM</h1>
+            <input className="nome" type="text" placeholder="Nome"/>
+            <input className="e-mail" type="text" placeholder="E-mail"/>
+            <input className="telefone" type="text" placeholder="Telefone" />
+            <input className="campo-mensagem" type="text" placeholder="Escreva sua mensagem aqui"/>
+            <button className="button-envio">Enviar</button>
+            </div>
+        </div>
   )
 }
 
