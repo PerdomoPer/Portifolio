@@ -19,7 +19,8 @@ footer ul li a{
 .LogoFooter{
     height: 15vh;
     display: flex;
-    margin-bottom: 10vh;
+    margin-bottom: 2vh;
+    margin-top: 4.5vh;
     margin-left: 5vw;
   }
 .rede{
