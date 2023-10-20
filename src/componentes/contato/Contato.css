@@ -56,3 +56,14 @@ label{
 input:focus{
     border: none;
 }   
+.box2{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 40vw;
+}
+.box-msg2{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 40vw;
+
+}
